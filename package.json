@@ -1,0 +1,36 @@
+{
+  "name": "wikifilter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jckhang/wikifilter.git"
+  },
+  "keywords": [
+    "Wiki",
+    "Node.js",
+    "heroku"
+  ],
+  "author": "Yuxiang Zhang, He Ying",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jckhang/wikifilter/issues"
+  },
+  "homepage": "https://github.com/jckhang/wikifilter#readme",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "googlemaps": "^1.4.0",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.4.14",
+    "nodemon": "^1.9.2",
+    "path": "^0.12.7",
+    "swig": "^1.4.2"
+  }
+}
